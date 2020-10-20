@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener((View.OnClickListener) this);
-        replaceFragment(new RightFragment());
+        //replaceFragment(new RightFragment());
     }
 
     @Override
